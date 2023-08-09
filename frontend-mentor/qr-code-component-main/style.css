@@ -36,9 +36,9 @@ h3 {
 }
 
 .attribution {
-    margin: 0;
+    margin-bottom: 106px;
     text-align: center;
-    font: 700 14px/30px Outfit, sans-serif; 
+    font: 700 14px Outfit, sans-serif; 
 }
 
 .attribution a:link, a:visited {
