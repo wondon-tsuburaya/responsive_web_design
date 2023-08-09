@@ -1,7 +1,51 @@
 body {
-    background-color: hsl(212, 45%, 89%);
+    background-color: #d5e1ef;
+    padding: 0;
+    margin: 0;
 }
 
-.qr {
-    
+.box {
+    width: 320px;
+    background-color: #ffffff;
+    margin: 150px auto 30px; 
+    border-radius: 14px;
+    overflow: hidden
+}
+
+img {
+    display: block;
+    width: 288px;
+    height: 290px;
+    border-radius: 10px;
+    margin: 16px 16px 0 16px;
+}
+
+h3 {
+    margin: 0;
+    font: 700 18px Outfit, sans-serif;
+    padding: 15px 33px 0 33px;
+    text-align: center;
+}
+
+.box>p {
+    margin: 0;
+    font: 16px Outfit, sans-serif;
+    color: #abaeb3;
+    text-align: center;
+    padding: 25px 36px 43px 36px; 
+}
+
+.attribution {
+    margin: 0;
+    text-align: center;
+    font: 700 14px/30px Outfit, sans-serif; 
+}
+
+.attribution a:link, a:visited {
+    color: rgb(84, 92, 181);
+    text-decoration: none;
+}
+
+.attribution a:hover, a:active {
+    color: rgb(65, 201, 11);
 }
